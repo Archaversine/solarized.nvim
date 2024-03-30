@@ -4,7 +4,7 @@ local bases = {
 	base01 =        '#586e75',
 	base00 =        '#657b83',
 	base0 =         '#708082',
-	base1 =         '#93a1a1',
+	base1 =         '#627373',
 	base2 =         '#ddd6c1',
 	base3 =         '#eee8d5',
 }
