@@ -5,8 +5,8 @@ local bases = {
 	base00 =        '#657b83',
 	base0 =         '#839496',
 	base1 =         '#93a1a1',
-	base2 =         '#eee8d5',
-	base3 =         '#fdf6e3',
+	base2 =         '#ddd6c1',
+	base3 =         '#eee8d5',
 }
 
 local solarized = {
@@ -25,7 +25,7 @@ local solarized = {
 	magenta =       '#d33682',
 	violet =        '#6c71c4',
 
-	bg_light =       bases['base2'],
+	bg_light =       bases['base3'],
 	bg_light_alt =   bases['base2'],
 	bg_dark =        bases['base03'],
 	bg_dark_alt =    bases['base02'],
