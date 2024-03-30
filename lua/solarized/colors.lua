@@ -11,7 +11,7 @@ local bases = {
 
 local solarized = {
 
-	white =         '#d8d4c4',
+	white =         '#eee8d5',
 	gray =          '#073642',
 	black =         '#002b36',
 	red =           '#dc322f',
