@@ -6,11 +6,11 @@ theme.loadSyntax = function ()
     -- Syntax highlight groups
 
 	local syntax = {
-		Type =						{ fg = solarized.yellow }, -- int, long, char, etc.
+		Type =						{ fg = "#586E75", style = 'bold' }, -- int, long, char, etc.
 		StorageClass =				{ fg = solarized.cyan }, -- static, register, volatile, etc.
 		Structure =					{ fg = solarized.yellow }, -- struct, union, enum, etc.
 		Constant =					{ fg = solarized.purple }, -- any constant
-		String =					{ fg = solarized.green, bg = solarized.none, style= 'italic' }, -- Any string
+		String =					{ fg = solarized.green, bg = solarized.none }, -- Any string
 		Character =					{ fg = solarized.orange }, -- any character constant: 'c', '\n'
 		Number =					{ fg = solarized.orange }, -- a number constant: 5
 		Boolean =					{ fg = solarized.orange }, -- a boolean constant: TRUE, false
@@ -92,16 +92,16 @@ theme.loadEditor = function ()
     -- Editor highlight groups
 
 	local editor = {
-		NormalFloat =			{ fg = solarized.fg, bg = solarized.float }, -- normal text and background color
-		ColorColumn =			{ fg = solarized.none, bg = solarized.active }, --  used for the columns set with 'colorcolumn'
+		NormalFloat =			{ fg = solarized.fg, bg = "#ddd6c1" }, -- normal text and background color
+		ColorColumn =			{ fg = solarized.none, bg = "#ece4cb" }, --  used for the columns set with 'colorcolumn'
 		Conceal =				{ fg = solarized.disabled }, -- placeholder characters substituted for concealed text (see 'conceallevel')
 		Cursor =				{ fg = solarized.cursor, bg = solarized.none, style = 'reverse' }, -- the character under the cursor
 		CursorIM =				{ fg = solarized.cursor, bg = solarized.none, style = 'reverse' }, -- like Cursor, but used when in IME mode
-		Directory =				{ fg = solarized.blue, bg = solarized.none }, -- directory names (and other special names in listings)
-		DiffAdd =				{ fg = solarized.green, bg = solarized.none, style = 'reverse' }, -- diff mode: Added line
-		DiffChange =			{ fg = solarized.orange, bg = solarized.none, style = 'reverse' }, --  diff mode: Changed line
-		DiffDelete =			{ fg = solarized.red, bg = solarized.none, style = 'reverse' }, -- diff mode: Deleted line
-		DiffText =				{ fg = solarized.purple, bg = solarized.none, style = 'reverse' }, -- diff mode: Changed text within a changed line
+		Directory =				{ fg = solarized.blue, bg = solarized.none, style = 'underline' }, -- directory names (and other special names in listings)
+		DiffAdd =				{ fg = solarized.green, bg = solarized.none, style = 'bold,italic,underline' }, -- diff mode: Added line
+		DiffChange =			{ fg = solarized.orange, bg = solarized.none, style = 'bold,italic,underline' }, --  diff mode: Changed line
+		DiffDelete =			{ fg = solarized.red, bg = solarized.none, style = 'bold,italic,underline' }, -- diff mode: Deleted line
+		DiffText =				{ fg = solarized.purple, bg = solarized.none, style = 'bold,italic,underline' }, -- diff mode: Changed text within a changed line
 		EndOfBuffer =			{ fg = solarized.disabled },
 		ErrorMsg =				{ fg = solarized.none },
 		Folded =				{ fg = solarized.disabled, bg = solarized.none, style = 'italic' },
@@ -131,7 +131,7 @@ theme.loadEditor = function ()
 		StatusLineTerm =		{ fg = solarized.fg, bg = solarized.contrast },
 		StatusLineTermNC =		{ fg = solarized.text, bg = solarized.disabled },
 		TabLineFill =			{ fg = solarized.fg },
-		TablineSel =			{ fg = solarized.bg, bg = solarized.accent },
+		TablineSel =			{ fg = solarized.accent, bg = solarized.bg_alt },
 		Tabline =				{ fg = solarized.fg },
 		Title =					{ fg = solarized.green, bg = solarized.none, style = 'bold' },
 		Visual =				{ fg = solarized.none, bg = solarized.selection },

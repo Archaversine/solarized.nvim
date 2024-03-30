@@ -5,7 +5,7 @@ local bases = {
 	base00 =        '#657b83',
 	base0 =         '#708082',
 	base1 =         '#627373',
-	base2 =         '#ddd6c1',
+	base2 =         '#ece4cb',
 	base3 =         '#eee8d5',
 }
 
@@ -39,7 +39,7 @@ local solarized = {
 	active =        '#d8ccc4',
 	border =        '#002b36',
 	line_numbers =  '#839496',
-	highlight =     '#d8ccc4',
+	highlight =     '#96b39c',
 	disabled =      '#073642',
 	cursor =        '#268bd2',
 	accent =        '#073642',

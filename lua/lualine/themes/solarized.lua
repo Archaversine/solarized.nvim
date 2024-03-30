@@ -5,8 +5,10 @@ local solarized = {}
 solarized.normal = {
 	a = {fg = colors.bg, bg = colors.accent, gui = 'bold'},
 	b = {fg = colors.title, bg = colors.active},
-	c = {fg = colors.fg, bg = colors.selection},
+	c = {fg = colors.fg, bg = colors.bg_alt},
 }
+
+-- #eadfbc
 
 solarized.insert = {
 	a = {fg = colors.bg, bg = colors.green, gui = 'bold'},
@@ -31,7 +33,7 @@ solarized.command = {
 solarized.inactive = {
   a = {fg = colors.disabled, bg = colors.bg, gui = 'bold'},
   b = {fg = colors.disabled, bg = colors.bg},
-  c = {fg = colors.disabled, bg = colors.selection}
+  c = {fg = colors.disabled, bg = colors.bg_alt}
 }
 
 return solarized
